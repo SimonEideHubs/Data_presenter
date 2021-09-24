@@ -1,0 +1,30 @@
+#HomeSideBar {
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+    background-color: #48BF84;
+    height: 100%;
+    width: 100%;
+}
+
+#logoContainer {
+    margin: 30px;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+}
+
+#buttonContainer {
+    margin: 0;
+    grid-row: 2;
+    grid-column: 1;
+    background-color: #439775;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+#routeButton {
+    width: 70%;
+    height: 2rem;
+    margin: 15%;
+}
