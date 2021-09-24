@@ -1,5 +1,5 @@
 #ShipList {
-    margin-top: 5vh;
+    margin-top: 20vh;
 }
 
 .collapsible {
@@ -9,4 +9,5 @@
     background-color: lightgray;
     width: 80%;
     margin: 1vh 10%;
+    padding: 5px 15px;
 }

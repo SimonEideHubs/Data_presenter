@@ -10,6 +10,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import ShipResults from "./ShipResults";
 
 function App() {
     return (
@@ -20,7 +21,7 @@ function App() {
                         <TravelPresenter />
                     </Route>
                     <Route path={'/ships'}>
-
+                        <ShipResults />
                     </Route>
                     <Route path='/'>
                         <HomeSideBar />
